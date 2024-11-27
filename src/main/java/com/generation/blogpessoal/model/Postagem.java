@@ -12,11 +12,11 @@ import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-public class Postagem {
+
 
 @Entity
 @Table(name = "tb_postagens")
-public class Postegem {
+public class Postagem {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -64,8 +64,5 @@ public class Postegem {
 	public void setData(LocalDateTime data) {
 		this.data = data;
 	}
-	
-}
-	
 	
 }
